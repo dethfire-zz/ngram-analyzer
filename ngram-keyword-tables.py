@@ -132,4 +132,4 @@ with st.form("data"):
             st.dataframe(df)
             i+=1
 
-st.write('Author: [Greg Bernhardt](https://twitter.com/GregBernhardt4) | Friends: [Rocket Clicks](https://www.rocketclicks.com) and [Physics Forums](https://www.physicsforums.com)')
+st.write('Author: [Greg Bernhardt](https://twitter.com/GregBernhardt4) | Friends: [importSEM](https://importsem.com) and [Physics Forums](https://www.physicsforums.com)')
