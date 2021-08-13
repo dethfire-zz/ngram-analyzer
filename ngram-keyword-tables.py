@@ -53,6 +53,7 @@ def surfer(entities):
 def kg(keywords):
 
   kg_entities = []
+  apikey = st.secrets["apikey"]
 
   for x in keywords:
     url = f'https://kgsearch.googleapis.com/v1/entities:search?query={x}&key={apikey}&limit=1&indent=True'
